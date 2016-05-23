@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<property>
+	<vdk_setup_path>D:\Program Files (x86)\Synopsys\Butter3-0.0.6.8</vdk_setup_path>
+	<start_test_node>138</start_test_node>
+	<enable_node>0</enable_node>
+	<jenkins_path>http://10.0.1.90:8080/jenkins/job/sprdroid6.0_iwhale2_presi_dev</jenkins_path>
+	<wait_for_download>300000</wait_for_download>
+	<email_subject>Intel Iwhale2 SW version of VDK automatic verification report</email_subject>
+	<email_recieve>Platform SW Andr Apps Performance Kernel Group</email_recieve>
+</property>
