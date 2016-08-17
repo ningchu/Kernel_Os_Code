@@ -195,8 +195,9 @@ if wscript.arguments(4)<>"none" then
 		mes=wscript.arguments(num)
 		if ubound(split(wscript.arguments(num),";;"))>0 then
 			com1 = split(wscript.arguments(num),";;")
-			com2 = split(com1(1),"am ")
 			wscript.sleep 10000
+			logfile.writeline("apk arguments is "&mes&" com1(0) = "&com1(0)&" com1(1) = "&com1(1))
+			wscript.echo "apk arguments is "&mes&" com1(0) = "&com1(0)&" com1(1) = "&com1(1)
 			for i = 1 to len(com1(0)) 
 				wsh.sendkeys mid(com1(0),i,1)
 				wscript.sleep 1000
@@ -205,8 +206,8 @@ if wscript.arguments(4)<>"none" then
 			wscript.sleep 300000
 
 			wscript.sleep 10000
-			for i = 1 to len(com2(1)) 
-				wsh.sendkeys mid(com2(1),i,1)
+			for i = 1 to len(com1(1)) 
+				wsh.sendkeys mid(com1(1),i,1)
 			wscript.sleep 1000
 			next
 			wsh.sendkeys "{ENTER}"
