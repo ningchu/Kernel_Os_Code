@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <property>
 	<project_num>2</project_num>
-	<start_test_node>215</start_test_node>
+	<start_test_node>287</start_test_node>
 	<enable_node>0</enable_node>
-	<jenkins_path>http://10.0.1.90:8080/jenkins/job/sprdroid6.0_iwhale2_presi_dev</jenkins_path>
-	<wait_for_download>300000</wait_for_download>
+	<dlog>0</dlog>
+	<jenkins_path>http://10.0.1.140:8080/jenkins/job/sprdroid6.0_iwhale2_presi_dev</jenkins_path>
+	<wait_for_download>900000</wait_for_download>
 	<email_subject>Intel SW version of VDK automatic verification report</email_subject>
 	<email_recieve>Platform SW Andr Apps Performance Kernel Group</email_recieve>
 	<project1>
